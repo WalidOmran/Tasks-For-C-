@@ -16,7 +16,7 @@ int main(){
 
     // Procec : Calculate TotalSeconds
     TotalSeconds =  (NumOfDays * 24 * 60 * 60) + (NumOfHours * 60 * 60) + (NumOfMinutes * 60 ) + NumOfSeconds;
-    
+    // 2 5 35 300 =>   193200 Seconds
     // Output : Display the TotalSeconds
     cout  << round(TotalSeconds) << " Seconds" << endl;
    
